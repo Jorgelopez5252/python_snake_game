@@ -37,7 +37,7 @@ window.resizable(False, False)
 score = 0
 direction = "down"
 
-label = Label(window, text = "Score:{}".format(score), font=("Arial", 25))
+label = Label(window, text = "Score:{}".format(score), font=("Arial", 40))
 label.pack()
 
 window.mainloop()
